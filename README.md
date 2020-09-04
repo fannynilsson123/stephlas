@@ -1,1 +1,1 @@
-# Individual project - website for jewllery brand Stephlas 
+# Individual project - website for jewlery brand Stephlas 
