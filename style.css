@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+.header {
+    overflow: hidden;
+}
+
+.header a {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: black;
+    font-size: 100%;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 2vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 250%;
+}
+
+.container {
+    width: 100%;
+    margin: 2rem auto; 
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 2fr);
+    grid-template-rows: repeat(6, 6vw);
+    grid-gap: 2rem;
+    
+}
+
+.galleryImg {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#galleryItem1 {
+    background-color: salmon;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+#galleryItem2 {
+    background-color: salmon;
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+#galleryItem3 {
+    background-color: salmon;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+#galleryItem4 {
+    background-color: salmon;
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+
