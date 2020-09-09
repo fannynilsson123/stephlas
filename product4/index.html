@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>STPEHLAS</title>
+    <title>STEPHLAS</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 
@@ -12,13 +12,35 @@
     <div class="header" id="header">
         <h1>Stephlas</h1>
         <ul>
-            <li style="float:left"><a href="../index.html">Home</a></li>
-            <li style="float:left"><a href="">Products</a></li>
-            <li><a href="../contact/index.html">Contact</a></li>
-            <li><a href="../about/index.html">About</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown" style="float:left"><a href="">Products</a>
+                <ul class="dropdown-content">
+                    <a href="../product1/index.html">SILVER RING</a>
+                    <a href="../product2/index.html">SILVER RING</a>
+                    <a href="../product3/index.html">SNAKE EARRING</a>
+                    <a href="../product4/index.html">SILVER EARRING</a>
+                </ul>
+            </li>
+            <li style="float: right;"><a href="../contact/index.html">Contact</a></li>
+            <li style="float: right;"><a href="../about/index.html">About</a></li>
         </ul>
     </div>
 
+    <div class="productContainer">
+        <div class="product">
+            <div class="productContent" id="productImage">
+                <img src="../images/earring2.jpg" class="productImg" alt="Product 1">
+            </div>
+            <div class="productContent" id="productText">
+                <h2>SILVER RING</h2>
+                <p>Suspendisse gravida libero sodales tellus viverra, ac laoreet urna
+                    ornare. Fusce tempus leo et placerat vulputate. Donec ullamcorper varius nibh, id finibus nibh
+                    gravida
+                    eget.
+                    Fusce scelerisque suscipit porta.</p>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
