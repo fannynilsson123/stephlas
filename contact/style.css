@@ -74,6 +74,12 @@ li.dropdown {
     display: block;
 }
 
+.contactInfo {
+    margin: 12.5%;
+    border: 2px solid #1b1b1b;
+    box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
     margin: 0;
@@ -84,11 +90,20 @@ h1 {
 }
 
 h2 {
-    padding-left: 13vw;
-    padding-right: 13vw;
-    padding-top: 13vw;
     text-transform: uppercase;
     font-size: 2vw;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    padding-left: 8vw;
+    padding-right: 8vw; 
+    padding-bottom: 2vw;
+    padding-top: 1vw;
+    line-height: 2em;
+    justify-content: center;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -101,6 +116,20 @@ h2 {
         padding-right: 9.5vw;
         font-size: 80%;
     }
-    
+    .contactInfo {
+        margin: 12.5%;
+        margin-top: 30%;
+        border: 2px solid #1b1b1b;
+        box-sizing: border-box;
+    }
+    h2 {
+        padding-left: 13vw;
+        padding-right: 13vw;
+        text-transform: uppercase;
+        font-size: 5vw;
+    }
+    p {
+        font-size: 60%;
+    }
   }
 
