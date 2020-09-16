@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
@@ -261,3 +262,59 @@ h1 {
     text-align: center;
     font-size: 1.5vw;
 }
+
+@media only screen and (max-width: 600px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        padding-left: 9.5vw;
+        padding-right: 9.5vw;
+        font-size: 80%;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(8, 2fr);
+        grid-template-rows: repeat(6, 6vw);
+        grid-gap: 2rem;
+        padding-top: 10vw;
+    }
+
+    #productItem1 {
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        position: relative;
+        align-items: center;
+    }
+    
+    #productItem2 {
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 6;
+        grid-row-end: 11;
+        position: relative;
+        align-items: center;
+    }
+    
+    #productItem3 {
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 11;
+        grid-row-end: 16;
+        position: relative;
+        align-items: center;
+    }
+    
+    #productItem4 {
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 16;
+        grid-row-end: 21;
+        position: relative;
+        align-items: center;
+    }
+  }
