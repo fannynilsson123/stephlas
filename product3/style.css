@@ -87,8 +87,14 @@ h2 {
     font-size: 100%;
 }
 
-p {
+h3 {
     font-size: 90%;
+}
+
+p {
+    font-size: 80%;
+    padding-top: 1em;
+    line-height: 2em;
 }
 
 .productContainer {
@@ -127,7 +133,7 @@ p {
     grid-column-end: 14;
     grid-row-start: 1;
     grid-row-end: 6;
-    padding: 2vw;
+    padding: 4vw;
     border: 2px solid #1b1b1b;
     box-sizing: border-box;
 }
@@ -143,6 +149,19 @@ p {
         font-size: 80%;
     }
 
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 60%;
+        padding: 4%;
+    }
     .product {
         display: grid;
         grid-template-columns: repeat(16, 1fr);
@@ -169,7 +188,4 @@ p {
         border: 2px solid #1b1b1b;
         box-sizing: border-box;
     }
-    
   }
-
-

@@ -317,4 +317,16 @@ h1 {
         position: relative;
         align-items: center;
     }
+    .productText1 {
+        font-size: 80%;
+    }
+    .productText2 {
+        font-size: 80%;
+    }
+    .productText3 {
+        font-size: 80%;
+    }
+    .productText4 {
+        font-size: 80%;
+    }
   }
