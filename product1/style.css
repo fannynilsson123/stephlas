@@ -140,12 +140,6 @@ p {
 
 @media only screen and (max-width: 600px) {
     ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        padding-left: 9.5vw;
-        padding-right: 9.5vw;
         font-size: 80%;
     }
 

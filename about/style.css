@@ -109,20 +109,16 @@ p {
 
 @media only screen and (max-width: 600px) {
     ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        padding-left: 9.5vw;
-        padding-right: 9.5vw;
         font-size: 80%;
     }
+
     .infoText {
         margin: 12.5%;
         margin-top: 30%;
         border: 2px solid #1b1b1b;
         box-sizing: border-box;
     }
+
     h2 {
         padding-left: 13vw;
         padding-right: 13vw;
@@ -137,6 +133,5 @@ p {
         line-height: 2em;
         font-size: 3vw;
     }
-
   }
 
